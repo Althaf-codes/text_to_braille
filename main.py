@@ -1,28 +1,3 @@
-# import braille
-# import cv2
-# def imgShow():
-#     braille.imageToBraille('assets/testjpj')
-    # cam = cv2.VideoCapture(0)
-    # while True:
-    #     ret_val, img = cam.read()
-    #     cv2.imshow('Detect Image', img)
-    #     if cv2.waitKey(1) == 27:
-    #         print("image taken")
-    #         cv2.imwrite("assest/test.jpg",img)
-    #         if braille.imageToBraille("assets/test.jpg") == "":
-    #             print("Image not recognized")
-    #         break
-    # cv2.destroyAllWindows()
-
-# imgShow()
-
-
-
-
-
-
-
-
 
 from imutils.perspective import four_point_transform as FPT
 from collections import Counter
